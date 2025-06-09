@@ -1,9 +1,9 @@
 import { Octokit } from "https://esm.sh/@octokit/core";
 
-const octokit = new Octokit({
+/* const octokit = new Octokit({
   //   auth: "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",
   auth: "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",
-});
+}); */
 
 let datosJson = "";
 const $container = document.querySelector(".container");
@@ -12,21 +12,24 @@ let datosGuardados = "";
 
 export async function llamarDb() {
   try {
+	  const getResponse = await fetch("https://charlymil979.github.io/servidorHuelga/BIN-db.json")
     // 1. Leer el archivo actual
-    const getResponse = await octokit.request(
+    /* const getResponse = await octokit.request(
       "GET /repos/{owner}/{repo}/contents/{path}",
       {
         owner: "charlymil979",
         repo: "Huelga-menu",
         path: "docs/BIN-db.json",
       }
-    );
+    ); */
 
+	  
     // Decodificar el contenido desde Base64 (usando atob)
     // console.log(getResponse);
-    const content = atob(getResponse.data.content); 
+    // const content = atob(getResponse.data.content); 
 
-     const data = JSON.parse(content);
+     // const data = JSON.parse(content);
+const datos = await getResponse.json();
     console.log(data);
    //  const dataCruda = await getResponse.json();
    //  console.log("Contenido decodificado:", dataCruda);
