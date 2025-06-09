@@ -1,0 +1,449 @@
+{
+    "CERVEZAS": [
+      [
+        "TIRADAS",
+        "  ",
+        [
+          ["", "Pinta", "Litro", "Pinta", "Litro"],
+          ["Golden", "4000", "7800", "3000", "5800"],
+          ["Honey", "4000", "7800", "3000", "5800"],
+          ["Scotish", "4000", "7800", "3000", "5800"],
+          ["Porter c/ vainilla", "4000", "7800", "3000", "5800"],
+          ["APA", "4200", "8100", "3000", "6000"],
+          ["IPA", "4200", "8100", "3000", "6000"],
+          ["Golden c/ frambuesa", "4000", "7800", "3000", "5800"],
+          ["Doppelbock", "4000", "7800", "3000", "5800"],
+          ["Doble IPA", "4600", "9000", "3500", "7000"]
+        ]
+      ]
+    ],
+    "TRAGOS": [
+      [
+        "PARA PRENDER LA NOCHE",
+        "  ",
+        [
+          ["  ", "Pinta", "Litro", "Pinta", "Litro"],
+          ["Fernet\nBranca, Coca Cola", "4600", "9000", "3300", "6500"],
+          ["Gancia\nGancia, Sprite, limón", "4600", "9000", "3300", "6500"],
+          [
+            "Gancia Batido\nGancia, azúcar y limón",
+            "5200",
+            "10000",
+            "4000",
+            "8000"
+          ],
+          [
+            "Gancia Americanino\nGancia, bitter, tónica",
+            "5200",
+            "10000",
+            "4000",
+            "8000"
+          ],
+          [
+            "Garibaldi\nCampari, jugo de naranja",
+            "4600",
+            "9000",
+            "3300",
+            "6500"
+          ],
+          [
+            "Campari Tonic\nCampari, tónica, limón",
+            "4600",
+            "9000",
+            "3300",
+            "6500"
+          ],
+          [
+            "Gin Tonic\nGin tirado, tónica, limón",
+            "4600",
+            "9000",
+            "3300",
+            "6500"
+          ],
+          [
+            "Gin Orange\nGin tirado, jugo de naranja",
+            "4600",
+            "9000",
+            "3300",
+            "6500"
+          ],
+          [
+            "Gin Daisy\nGin tirado, granadina, tónica",
+            "5200",
+            "10000",
+            "4000",
+            "8000"
+          ],
+          [
+            "Destornillador\nVodka, jugo de naranja",
+            "4600",
+            "9000",
+            "3300",
+            "6500"
+          ],
+          ["Salty Dog\nVodka, jugo de pomelo", "4600", "9000", "3300", "6500"],
+          ["Cuba Libre\nRon, Coca Cola, limón", "5000", "9800", "4000", "8000"],
+          ["Whiscola\nWhisky, Coca Cola", "4600", "9000", "3300", "6500"],
+          [
+            "Negroni\nGin tirado, vermouth rosso, bitter",
+            "5500",
+            "",
+            "",
+            ""
+          ],
+          ["Boulevardier\nWhisky, vermouth rosso, bitter", "5500", "", "", ""],
+          [
+            "Piel de Iguana\nVodka, licor de melón, Sprite",
+            "5000",
+            "9800",
+            "4000",
+            "8000"
+          ],
+          ["Laguna Azul\nVodka, blue curaçao", "5000", "9800", "4000", "8000"],
+          [
+            "Mockingbird\nTequila, licor de menta, limón, azucar",
+            "5500",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Tequila Sunrise\nTequila, jugo de naranja, granadina",
+            "5200",
+            "10000",
+            "4000",
+            "8000"
+          ],
+          ["Jägger Tonic\nJäggermeister, tónica", "7000", "13600", "", ""],
+          ["Mojito\nRon, tónica, azúcar, limón, menta", "5500", "4000", "", ""],
+          ["Caipirinha\nCachaça, azúcar, limón ", "5500", "4000", "", ""],
+          ["Caipiroska\nVodka, azúcar, limón", "5500", "4000", "", ""],
+          ["Submarino\nCerveza golden, tequila", "6500", "", "", ""],
+          ["Boiler Maker\nCerveza golden, whisky", "6500    ", "", "", ""]
+        ]
+      ]
+    ],
+    "TRAGOS CON SPEED": [
+      [
+        "PONELE ENERGIA",
+        "  ",
+        [
+          [" ", "Pinta", "Litro", "", ""],
+          ["Smirnoff", "5300", "10200", "", ""],
+          ["Absolut", "6000", "12000", "", ""],
+          ["Whisky", "5300", "10200", "", ""],
+          ["Jäggermeister", "7000", "13600", "", ""],
+          ["Licor\nConsulta los sabores", "5300", "10200", "", ""]
+        ]
+      ]
+    ],
+    "SHOTS": [
+      [
+        "UN GOLDE DE SABOR",
+        " ",
+        [
+          ["Jäggermeister", "5000          ", "", "", ""],
+          ["Smirnoff", "3000", "", "", ""],
+          ["Absolut", "4500", "", "", ""],
+          ["Tequila", "3000", "", "", ""]
+        ]
+      ]
+    ],
+    "BEBIDAS SIN ALCOHOL": [
+      ["AGUA", "Sin gas", [["500 cc", "2300", "", "", ""]]],
+      [
+        "AGUA SABORIZADA",
+        "Manzana, Naranja, Pomelo",
+        [["Chopp", "2300", "", "", ""]]
+      ],
+      [
+        "CHOPP DE GASEOSA",
+        "Coca Cola, Sprite, tónica",
+        [["Chopp", "2300", "", "", ""]]
+      ],
+      ["CHOPP DE JUGO", "Pura naranja", [["Chopp", "2800", "", "", ""]]],
+      ["SPEED", "  ", [["Lata 250 cc.", "2800", "", "", ""]]]
+    ],
+    "VINOS Y WHISKY": [
+      ["VINO BLANCO", "  ", [["Cosecha Tardía", "7500", "", "", ""]]],
+      [
+        "VINO TINTO",
+        "  ",
+        [
+          ["Elementos malbec", "7500", "", "", ""],
+          ["Benjamín malbec", "7500", "", "", ""],
+          ["Benjamín cabernet S.", "7500", "", "", ""],
+          ["Emilia malbec", "10000", "", "", ""],
+          ["Espumante", "7500", "", "", ""],
+          ["Blanco/espumante c/ 2 speed", "12500", "", "", ""]
+        ]
+      ],
+      [
+        "WHISKY",
+        "  ",
+        [
+          ["Red Label", "6500", "", "", ""],
+          ["Black Label", "8500", "", "", ""]
+        ]
+      ]
+    ],
+    "PLATOS": [
+      [
+        "PAPAS",
+        "RUSTICAS, FRITAS",
+        [
+          ["Solas", "5800", "", "", ""],
+          ["Con adicional\nA elección", "6800", "", "", ""],
+          ["Salchipapas", "7500", "", "", ""],
+          ["Papas HUELGA\nCheddar, panceta, verdeo", "7800", "", "", ""],
+          [
+            "Super Papas\nCheddar, panceta, verdeo, 3 huevos estrellados, provo rallado",
+            "8800",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      ["AROS DE CEBOLLA", " ", [[" ", "7000", "", "", ""]]],
+      [
+        "PIZZAS",
+        "  ",
+        [
+          ["  ", "Media", "Grande", "", ""],
+          ["Muzza", "5000", "9200", "", ""],
+          ["Napolitana", "5400", "10000", "", ""],
+          ["Capresse", "5400", "10000", "", ""],
+          ["Jamón y morrón", "5400", "10000", "", ""],
+          ["Roquefort", "5400", "10000", "", ""],
+          ["Rúcula", "5400", "10000", "", ""],
+          ["Provoleta", "5400", "10000", "", ""],
+          ["Cuatro Quesos", "5400", "10000", "", ""],
+          [
+            "Funghi\n(muzza, verdeo, panceta, champis)",
+            "6000",
+            "11000",
+            "",
+            ""
+          ],
+          [
+            "De la Casa\n(muzza, cheddar, cebolla caramelizada, bondiola desmenuzada, huevo a la plancha)",
+            "",
+            "12500",
+            "",
+            ""
+          ]
+        ]
+      ],
+      [
+        "RAVIOLES FRITOS",
+        "Consulta el relleno disponible, sale con 2 salsas a elección ",
+        [["Sale con fritas", "7000", "", "", ""]]
+      ],
+      [
+        "BAJÓN BIRRERO",
+        "Papas fritas, Albóndigas, Aceitunas, Acompañado con pan",
+        [[" ", "7500", "", "", ""]]
+      ],
+      [
+        "TOSTADO XL",
+        " ",
+        [
+          ["Jamón y queso", "8000", "", "", ""],
+          ["Jamón, queso, rúcula, tomate", "9800", "", "", ""]
+        ]
+      ],
+      [
+        "EMPANADAS",
+        "  ",
+        [
+          ["Carne", " ", "", "", ""],
+          ["Pollo", "1500", "", "", ""],
+          ["Jamón y queso", " ", "", "", ""]
+        ]
+      ],
+      [
+        "POLLO CRISPY",
+        "Pollo rebozado a la porter, acompañado con papas",
+        [[" Sale con salsa de verdeo", "8500", "", "", ""]]
+      ],
+      ["ALITAS FRITAS", " ", [["Salen con Fritas", "8500", "", "", ""]]],
+      [
+        "RABAS",
+        "A la Provenzal",
+        [
+          ["Porción completa", "12500", "", "", ""],
+          ["Con aros de cebolla", "12500", "", "", ""]
+        ]
+      ],
+      ["MUZZARELITAS", " ", [[" ", "8200", "", "", ""]]],
+      [
+        "PANCHOS",
+        "Salchicha alemana, con 4 ingredientes a elección",
+        [[" ", "6500", "", "", ""]]
+      ],
+      [
+        "PICADA HUELGA",
+        "Pollo Crispy, Mila de carne, Muzzarelitas, Salchicha a la mostaza, jamón y queso, papas fritas, pan",
+        [["Con 2 salsas...", "19500", "", "", ""]]
+      ],
+      [
+        "HAMBURGUESAS",
+        "De carne, pollo, o cerdo, salen con fritas y con 4 ingrdientes a elección",
+        [
+          ["Simple", "9000", "", "", ""],
+          ["Doble", "10200", "", "", ""],
+          ["Triple", "11500", "", "", ""]
+        ]
+      ],
+      [
+        "BONDIOLA XL",
+        "A la plancha, compartila!",
+        [
+          ["Capresse", " ", "", "", ""],
+          ["Braseada a la porter", "12500", "", "", ""],
+          ["A la mostaza con cebolla", " ", "", "", ""]
+        ]
+      ],
+      [
+        "MILA XL",
+        "Elegila de carne o pollo",
+        [
+          ["Sola", "11500", "", "", ""],
+          ["Napo\nTomate, jamón, muzza", "12500", "", "", ""],
+          ["HUELGA\nCheddar, panceta, bbq", "12500", "", "", ""]
+        ]
+      ],
+      [
+        "CHURRASQUITO XL",
+        "El criollo a la plancha",
+        [["Con 4 ingredientes", "12500", "", "", ""]]
+      ],
+      [
+        "PROVOLETA",
+        "Derretida a la plancha",
+        [["Capresse", "7500", "", "", ""]]
+      ],
+      [
+        "TACOS",
+        "De México a HUELGA",
+        [
+          [
+            "Carne con picante, pollo con cheddar, cerdo con bbq",
+            "8500",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      [
+        "SALSAS",
+        "Agregale sabor a tu plato",
+        [
+          [
+            "Caprese, Verdeo, Mostaza, Barbacoa, Tártara, Picante, Mostaza con miel, Salsa HUELGA, Teriyaki, Criolla, Alioli",
+            "1500",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      [
+        "INGREDIENTES",
+        "Elegi 4 de estos para tu plato",
+        [
+          [
+            "Cheddar, Panceta, Jamón, Queso, Champiñones, Morrón, Lechuga, Tomate, Cebolla Caramelizada, Huevo a la Plancha, Tomates Confitados, Pepinillos, Cebolla Caramelizada",
+            "1500",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ]
+    ],
+    "POSTRES": [
+      [
+        "PANQUEQUE",
+        "El clásico postre caliente",
+        [
+          ["Manzana al ron", "5200", "", "", ""],
+          ["Dulce de leche", "5200", "", "", ""]
+        ]
+      ]
+    ],
+    "ESPECIALES DE LA CASA": [
+      [
+        "HAMBURGUESAS",
+        "Una selección especial de sabores",
+        [
+          [
+            "HUELGA\nMedallón de carne, provoleta, tomate confitado, salsa Huelga",
+            "8600",
+            "",
+            "",
+            ""
+          ],
+          [
+            "HUELGA Doble\nDoble medallón de carne, provoleta, tomate confitado, salsa Huelga",
+            "9700",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Ballestrinque\nMedallón de pollo, lechuga, cebolla, salsa teriyaki",
+            "8600",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Calabrote\nMedallón de cerdo, rúcula, panceta crocante, salsa mostanesa con miel",
+            "8600",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Beer Elf\nMedallón de carne, lechuga, pepinillos, salsa Huelga",
+            "8600",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Bandolero\nMedallón de carne, cebolla caramelizada, morrón, salsa criolla, cheddar",
+            "8600",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Vaquera\nMedallón de cerdo, huevo a la plancha, champiñones, salsa bbq, mostaza con miel",
+            "8600",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Escota\nMedallón de pollo, panceta crocante, jamón, salsa cheddar",
+            "8600",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Lasca\nMedallón de lentejas y calabaza, muzzarella, rúcula, salsa alioli",
+            "8600",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ]
+    ],
+    "": []
+  }
