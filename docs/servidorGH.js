@@ -29,7 +29,7 @@ export async function llamarDb() {
     // const content = atob(getResponse.data.content); 
 
      // const data = JSON.parse(content);
-const datos = await getResponse.json();
+const data = await getResponse.json();
     console.log(data);
    //  const dataCruda = await getResponse.json();
    //  console.log("Contenido decodificado:", dataCruda);
