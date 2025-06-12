@@ -1,9 +1,5 @@
 import { Octokit } from "https://esm.sh/@octokit/core";
 
-/* const octokit = new Octokit({
-  //   auth: "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",
-  auth: "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",
-}); */
 
 let datosJson = "";
 const $container = document.querySelector(".container");
@@ -13,29 +9,10 @@ let datosGuardados = "";
 export async function llamarDb() {
   try {
 	  const getResponse = await fetch("https://charlymil979.github.io/servidorHuelga/BIN-db.json")
-    // 1. Leer el archivo actual
-    /* const getResponse = await octokit.request(
-      "GET /repos/{owner}/{repo}/contents/{path}",
-      {
-        owner: "charlymil979",
-        repo: "Huelga-menu",
-        path: "docs/BIN-db.json",
-      }
-    ); */
-
-	  
-    // Decodificar el contenido desde Base64 (usando atob)
-    // console.log(getResponse);
-    // const content = atob(getResponse.data.content); 
 
      // const data = JSON.parse(content);
 const data = await getResponse.json();
     console.log(data);
-   //  const dataCruda = await getResponse.json();
-   //  console.log("Contenido decodificado:", dataCruda);
-   //  const data = dataCruda.menu;
-
-    // console.log("Contenido:", data);
 
     let datos = {};
 
@@ -73,11 +50,7 @@ const data = await getResponse.json();
             $hh2 += `<textarea>${element[4]}</textarea></br>`;
           });
           let clase = datos[0].replaceAll(/[ *]/g, "");
-          // console.log($tipos);
-          // console.log(datos[0]);
-          // console.log(datos[1]);
-          // console.log(datos[2][0][0]);
-          // console.log(datos[2][0][1]);
+          
           $info += `
             <tr>
             <td class="${clase}"><textarea>${key}</textarea></td>
@@ -143,8 +116,6 @@ function previsualizar() {
       let long = datosFinales[key].length;
 
       let tipos = (long - 3) / 5;
-      // Long-3 xq key0=grupo, key1=nombre, key2=descripcion
-      // /5 xq son 5 valores= tipo, precio1, precio2, hh1, hh2
 
       let arreglo = [];
       for (let index = 1; index < 3; index++) {
@@ -154,11 +125,7 @@ function previsualizar() {
 
       let arreglo2 = [];
       for (let ind = 3; ind < long - 4 * tipos; ind++) {
-        /*   console.log(
-				datosFinales[key][ind],
-				datosFinales[key][ind + tipos],
-				datosFinales[key][ind + 2 * tipos]
-				); */
+       
         if (datosFinales[key][ind] != "") {
           arreglo2.push([
             datosFinales[key][ind],
@@ -191,42 +158,6 @@ function previsualizar() {
 //   console.log(objeto);
 }
 
-/* export async function guardar() {
-  try {
-    previsualizar();
-    datosGuardados = objeto;
-     console.log(datosGuardados);
-    const response = await fetch("http://localhost:3000/menu", {
-      method: "POST", // Usamos POST para enviar datos
-      headers: {
-        "Content-Type": "application/json", // Le decimos al servidor que enviamos JSON
-      },
-      body: JSON.stringify(datosGuardados), // Convertimos el objeto JS a una cadena JSON
-    });
-    const result = await response.json();
-
-	 if (result.success) {
-     mensajeDiv.textContent =
-       result.message + " Datos actualizados: " + JSON.stringify(result.data);
-     mensajeDiv.className = "success";
-     nuevoMensajeInput.value = ""; // Limpiar el campo
-     nuevaVersionInput.value = ""; // Limpiar el campo
- 
-   } else {
-     mensajeDiv.textContent = "Error: " + result.message;
-     mensajeDiv.className = "error";
-   }
-    jsonData = datosGuardados; // Cambia esto según tus necesidades
-    console.log("Contenido modificado:", jsonData);
-
-    // 3. Subir el archivo actualizado
-
-    console.log("Archivo actualizado con éxito:", updateResponse.data);
-   //  location.reload();
-  } catch (error) {
-    console.error("Error al actualizar el archivo:", error);
-  }
-} */
 export async function guardar() {
   try {
     previsualizar();
